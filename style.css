@@ -108,7 +108,13 @@ nav a{
 
 /* ---header end */
 
-/* ---min start----- */
+/* ---min section start----- */
+
+main{
+    max-width: 1140px;
+    margin:0 auto;
+
+}
 
 .about{
     padding: 130px;
@@ -117,3 +123,11 @@ nav a{
     margin:130px 0;
 }
 
+.about-info-container{
+        display:flex;
+        justify-content: space-around;
+}
+
+.about-info{
+    text-align:center;
+}
